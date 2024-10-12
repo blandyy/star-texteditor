@@ -1,0 +1,5 @@
+pyside6-uic ui/star_ui.ui -o star_texteditor/ui/star_ui.py
+pyside6-uic ui/about.ui -o star_texteditor/ui/about.py
+pyside6-uic ui/search.ui -o star_texteditor/ui/search.py
+pyside6-uic ui/replace.ui -o star_texteditor/ui/replace.py
+pyinstaller --add-data="resource;resource" -i .\resource\favicon.ico -F -w star.py
