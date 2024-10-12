@@ -1,6 +1,6 @@
 # Star TextEditor
 
-Start是一个Python编写的小型文本编辑器
+Star是一个Python编写的小型文本编辑器
 
 ## 目录结构
 
